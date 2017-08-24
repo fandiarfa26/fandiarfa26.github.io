@@ -25,7 +25,6 @@ html,body{
 .img-profile > img {
     width:auto;
     height: 100%;
-    margin-left: -25%;
 }
 .card-content{
     font-family: 'Arvo', serif;
