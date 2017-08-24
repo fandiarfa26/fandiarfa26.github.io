@@ -1,0 +1,47 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    background: rgb(48, 141, 84);
+}
+.card{
+    height: 90%;
+    box-shadow: 0 0 5px 5px rgba(62, 62, 62, 0.2);
+}
+.card-header{
+    height: 25%;
+    background-color: rgb(39, 186, 96);
+}
+.img-profile{
+    margin: 5% 40%;
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 5px 5px rgba(62, 62, 62, 0.2);
+}
+.img-profile > img {
+    width:auto;
+    height: 100%;
+    margin-left: -25%;
+}
+.card-content{
+    font-family: 'Arvo', serif;
+}
+.card-content>span{
+    display: block;
+}
+.content-nama{
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+.content-quote{
+    margin: 12%;
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+}
+.angkatan{
+    font-size: 3em;
+}
