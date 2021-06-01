@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M. Fandi Arfabuma's Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css" integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="font-body bg-parallax">
+  <div class="fixed top-0 px-5 py-5 lg:px-10">
+    <h2 class="w-full h-20 text-3xl font-bold text-green-500 lg:text-4xl">fa.</h2>
+  </div>
+  
+  <div id="fullpage">
+    <!-- INTRO -->
+    <div class="section" id="section0">
+      <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center justify-center gap-10 p-10 lg:flex-row lg:gap-20">
+          <div>
+            <img src="images/illust.png" onmouseover="hover(this);" onmouseout="unhover(this);" id="photome" alt="Photo" class="w-48 h-48 rounded-full lg:w-72 lg:h-72 lg:rounded-xl hover:shadow-lg">
+          </div>
+          <div class="text-center lg:text-left lg:w-1/3">
+            <h2 class="text-2xl">My name is</h2>
+            <h1 class="text-2xl font-bold text-green-500 lg:text-3xl ml7">
+              <span class="text-wrapper">
+                <span class="letters">M. Fandi Arfabuma</span>
+              </span>
+            </h1>
+            <br>
+            <p class="text-base">I am from Malang and born in Bangkalan, Madura. I am a front-end web developer and Flutter mobile developer.</p>
+          </div>
+        </div>
+        <a href="#education" class="flex flex-col items-center mt-5 animate-bounce">
+          <span class="text-sm">Education & Experience</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 13l-5 5m0 0l-5-5m5 5V6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- EDUCATION & EXPERIENCE -->
+    <div class="section" id="section1">
+      <div class="flex flex-col items-center p-5 lg:p-20">
+        <div class="grid grid-rows-2 gap-3 lg:grid-rows-none lg:grid-cols-2 lg:gap-10">
+          <div class="w-full p-2 bg-gray-100 rounded-lg shadow-lg">
+            <h3 class="px-3 py-2 text-lg font-bold text-green-500">Education</h3>
+            <div class="flex flex-col">
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">SDN Mojolangu 1 Malang</div>
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">SMP Negeri 20 Malang</div>
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">SMK Negeri 5 Malang - <b>Software Engineering</b></div>
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">Universitas Negeri Malang - <b>Informatics</b></div>
+            </div>
+          </div>
+          <div class="w-full p-2 bg-gray-100 rounded-lg shadow-lg">
+            <h3 class="px-3 py-2 text-lg font-bold text-green-500">Experience</h3>
+            <div class="flex flex-col">
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">Web & Mobile Developer of Digistar
+                Studio Malang</div>
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">IT Staff of PUIPT Disruptive Learning
+                Innovation</div>
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">Web Developer of Idbookstore</div>
+              <div class="w-full px-3 py-2 rounded-lg hover:bg-white">Web Developer of ICLI 2020 Website</div>
+            </div>
+          </div>
+        </div>
+        <a href="#skill" class="flex flex-col items-center mt-5 animate-bounce lg:mt-20">
+          <span class="text-sm">Skill & Portfolio</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 13l-5 5m0 0l-5-5m5 5V6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- SKILL & PORTFOLIO -->
+    <div class="section" id="section2">
+      <div class="flex flex-col items-center p-5 lg:p-20">
+        <div class="flex flex-col gap-3 lg:flex-row lg:gap-10">
+          <div class="w-full p-2 bg-gray-100 rounded-lg shadow-lg lg:w-1/4">
+            <h3 class="px-3 py-2 text-lg font-bold text-green-500">Programming Skill</h3>
+            <div class="flex flex-wrap gap-2 px-3">
+              <span class="px-2 text-white bg-blue-300 rounded-lg lg:text-sm p">Flutter</span>
+              <span class="px-2 text-white bg-blue-800 rounded-lg lg:text-sm p">Dart</span>
+              <span class="px-2 text-white bg-yellow-400 rounded-lg lg:text-sm p">Firebase</span>
+              <span class="px-2 text-white bg-yellow-300 rounded-lg lg:text-sm p">Python</span>
+              <span class="px-2 text-white bg-green-300 rounded-lg lg:text-sm p">Tailwind CSS</span>
+              <span class="px-2 text-white bg-green-500 rounded-lg lg:text-sm p">Vue JS</span>
+              <span class="px-2 text-white bg-indigo-500 rounded-lg lg:text-sm p">Bootstrap</span>
+              <span class="px-2 text-white bg-yellow-300 rounded-lg lg:text-sm p">Javascript</span>
+              <span class="px-2 text-white bg-yellow-500 rounded-lg lg:text-sm p">HTML</span>
+              <span class="px-2 text-white bg-blue-400 rounded-lg lg:text-sm p">CSS</span>
+              <span class="px-2 text-white bg-purple-500 rounded-lg lg:text-sm p">PHP</span>
+              <span class="px-2 text-white bg-red-400 rounded-lg lg:text-sm p">MySQL</span>
+            </div>
+          </div>
+          <div class="w-full p-2 bg-gray-100 rounded-lg shadow-lg">
+            <h3 class="px-3 py-2 text-lg font-bold text-green-500">Portfolio</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-4">
+              <a href="https://samarindafood.com/" target="_blank" class="w-full px-3 py-2 rounded-lg hover:bg-white">Samarinda Food App</a>
+              <a href="https://locahubie.com/" target="_blank" class="w-full px-3 py-2 rounded-lg hover:bg-white">Locahubie</a>
+              <a href="https://museakademi.com/" target="_blank" class="w-full px-3 py-2 rounded-lg hover:bg-white">Muse Akademi</a>
+              <a href="https://fandiarfa26.github.io/arfa-summary/" target="_blank" class="w-full px-3 py-2 rounded-lg hover:bg-white">Arfa Summary</a>
+              <a href="http://dli.um.ac.id/" target="_blank" class="w-full px-3 py-2 rounded-lg hover:bg-white">Web Company Profile DLI</a>
+              <a href="#!" class="w-full px-3 py-2 rounded-lg hover:bg-white">Web ICLI 2020</a>
+              <a href="http://idbookstore.id/" target="_blank" class="w-full px-3 py-2 rounded-lg hover:bg-white">Idbookstore</a>
+            </div>
+          </div>
+        </div>
+        <a href="#favorites" class="flex flex-col items-center mt-5 animate-bounce lg:mt-20">
+          <span class="text-sm">Favorites</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 13l-5 5m0 0l-5-5m5 5V6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- FAVORITES -->
+    <div class="section" id="section3">
+      <div class="flex flex-col items-center p-5 lg:p-20">
+        <div class="grid grid-rows-2 gap-3 lg:grid-rows-none lg:grid-cols-2">
+          <div class="grid grid-cols-2 grid-rows-2 gap-3">
+            <div class="flex items-center justify-center w-32 h-32 bg-white rounded-lg shadow-lg lg:w-56 lg:h-56 hover:bg-gray-100">
+              <img src="images/cinema.png" alt="" class="w-20">
+            </div>
+            <div class="flex items-center justify-center w-32 h-32 font-bold text-green-500 rounded-lg lg:w-56 lg:h-56">Movies</div>
+            <div class="flex items-center justify-center w-32 h-32 font-bold text-green-500 rounded-lg lg:w-56 lg:h-56">Games</div>
+            <div class="flex items-center justify-center w-32 h-32 bg-white rounded-lg shadow-lg lg:w-56 lg:h-56 hover:bg-gray-100">
+              <img src="images/controller.png" alt="" class="w-20">
+            </div>
+          </div>
+          <div class="grid grid-cols-2 grid-rows-2 gap-3">
+            <div class="flex items-center justify-center w-32 h-32 bg-white rounded-lg shadow-lg lg:w-56 lg:h-56 hover:bg-gray-100">
+              <img src="images/music.png" alt="" class="w-20">
+            </div>
+            <div class="flex items-center justify-center w-32 h-32 font-bold text-green-500 rounded-lg lg:w-56 lg:h-56">Music</div>
+            <div class="flex items-center justify-center w-32 h-32 font-bold text-green-500 rounded-lg lg:w-56 lg:h-56">Photography</div>
+            <div class="flex items-center justify-center w-32 h-32 bg-white rounded-lg shadow-lg lg:w-56 lg:h-56 hover:bg-gray-100">
+              <img src="images/photography.png" alt="" class="w-20">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed top-0 flex items-center justify-end w-full h-20 gap-5 px-5 py-5 lg:top-auto lg:top lg:justify-start lg:bottom-0 lg:px-10">
+    <a href="https://github.com/fandiarfa26" target="_blank" class="text-xl lg:text-3xl hover:text-green-500"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/fandiarfa/" target="_blank" class="text-xl lg:text-3xl hover:text-green-500"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/arfabuma/" target="_blank" class="text-xl lg:text-3xl hover:text-green-500"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:arfabuma.987@gmail.com" class="text-xl lg:text-3xl hover:text-green-500"><i class="far fa-envelope"></i></a>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
