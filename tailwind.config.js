@@ -3,7 +3,7 @@ module.exports = {
     mode: 'layers',
     content: ['./public/**/*.html'],
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
@@ -12,7 +12,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      fontSize: ['hover', 'focus']
+    },
   },
   plugins: [],
 }
